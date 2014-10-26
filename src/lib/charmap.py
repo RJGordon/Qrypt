@@ -1,9 +1,7 @@
-# Ryan J Gordon
-# Last Edit: 10/20/2014
+# Module for Character Map #
+# github.com/RJGordon/Qrypt #
 
-# Character map for Encryption Algorithm
-
-			# Does not support non-english characters.
+# Does NOT support non-english characters as of yet. #
 
 from collections import OrderedDict
 
