@@ -1,4 +1,4 @@
 Qrypt
 =====
 
-Simplisitic yet reasonably strong encryption.
+Simple, Strong, and Swift ; Encryption Quantified. 
