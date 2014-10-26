@@ -1,4 +1,4 @@
 Qrypt
 =====
 
-Simple, Strong, and Swift ; Encryption Quantified. 
+Simple, Strong, and Swift... Qrypt; Encryption Quantified. 
