@@ -1,7 +1,7 @@
 Qrypt
 =====
 
-**Quick, Quiet; Qrypt.  Welcome to Encryption Quantified.***
+**Quick, Quaint; Qrypt.  Welcome to Encryption Quantified.***
 
 
 Qrypt is a minimalistic encryption program that aimes to achieve a reasonable degree of strength while maintaining simplisty and speed. 
