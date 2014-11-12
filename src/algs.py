@@ -56,7 +56,7 @@ def genKeySequence(key):
 	except Exception as e:
 		util.error(e)
 
-	checkFail(retVal)
+	util.checkFail(retVal)
 	return(retVal)
 
 
@@ -95,8 +95,8 @@ def genKeyCipher(key):
 	retVal = False
 
 	try:
-		k_sum = sumStr(key)
-		k_mean = meanStr(key)
+		k_sum = util.sumStr(key)
+		k_mean = util.meanStr(key)
 		k_seqs = genKeySequence(key)
 
 		keyCipher = ""
@@ -106,7 +106,7 @@ def genKeyCipher(key):
 		retVal = int(keyCipher)
 
 	except Exception as e:
-		error(e)
+		util.error(e)
 
-	checkFail(retVal)
+	util.checkFail(retVal)
 	return(retVal)

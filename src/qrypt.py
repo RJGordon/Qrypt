@@ -1,6 +1,6 @@
-import algs, utils
+import algs, util
 from re import findall
-from decimal import Decimal
+from decimal import Decimal, getcontext
 
 def retBin(num):
 	retVal = False
@@ -24,7 +24,7 @@ def retStrVal(string):
 
 		for character in string:
 			charVal = str(util.retInt(character))
-			if len(charVal) == 1
+			if len(charVal) == 1:
 				charVal = charVal.zfill(2)
 			strVal += charVal
 
@@ -55,6 +55,8 @@ def encrypt(raw, keyCipher):
 
 		retVal = ciphText
 
+		print("EN CIPHVAL \n{}".format(ciphVal))
+
 	except Exception as e:
 		util.error(e)
 
@@ -76,7 +78,7 @@ def decrypt(ciphered, keyCipher):
 			ciphVal += charVal
 		ciphVal = int(ciphVal)
 
-		getcontext().prec = 100000
+		getcontext().prec = 10000000
 		binVal = str(Decimal(ciphVal) / Decimal(keyCipher))
 		rawVal = str(int(binVal, 2))
 		rawVal = rawVal[1:] # Removes the initial 1 added in retStrVal
@@ -89,6 +91,8 @@ def decrypt(ciphered, keyCipher):
 			rawText += char
 
 		retVal = rawText
+
+		print("DE CIPHVAL \n{}".format(ciphVal))
 
 	except Exception as e:
 		util.error(e)
@@ -105,6 +109,7 @@ def main():
 	uncrypted = decrypt(crypted, keyCipher)
 
 	print(crypted)
+	print("\n-----------\n")
 	print(uncrypted)
 
 
