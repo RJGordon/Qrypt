@@ -95,7 +95,7 @@ def decrypt(ciphered, keyCipher):
 		rawList = findall("..", rawVal) # Breaks rawVal into two digit pairs so it may be properly decrypted.
 		rawText = ""
 
-		# Gets character value for each two-digit number in 'rawList' and adds it two 'rawText'
+		# Gets character value for each two-digit number in 'rawList' and adds it to 'rawText'
 		for num in rawList:
 			num = int(num)
 			char = util.retChar(num)
