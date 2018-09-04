@@ -4,6 +4,4 @@ Qrypt
 **Quick, Quaint; Qrypt.  Welcome to Encryption Quantified.***
 
 
-Qrypt is a minimalistic encryption program that aimes to achieve a reasonable degree of strength while maintaining simplisty and speed. 
-
-Qrypt is in development and is not yet fully functional. 
+ **NEVER USE THIS. THIS ISN'T EVEN ENCRYPTION. I HAD WRITTEN OUT DOCUMENTATION FOR QRYPT THAT USED INJECTIVE FUNCTIONS TO REMOVE 30% OF THE INFORMATION FROM A FILE, SPLIT INTO TWO KEYFILES, ENCRYPTED WITH A PASSCODE, BUT THAT WAS NEVER EVEN MADE. IF I HAD MADE THAT, IT WOULD HAVE BEEN AT LEAST USABLE, BUT I DIDNT. SERIOUSLY, THIS IS REALLY BAD.**
